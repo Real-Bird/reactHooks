@@ -17,18 +17,12 @@ const useInput = (initialValue, validator) => {
   return { value, onChange };
 };
 
-const App = () => {
-  const [item, setItem] = useState(0);
-  const incremetItem = () => setItem(item + 1);
-  const decremetItem = () => setItem(item - 1);
+const UseInput = () => {
   const maxLen = (value) => value.length <= 10;
   const name = useInput("mr. ", maxLen);
-
   return (
     <div>
-      <h2>{item}</h2>
-      <button onClick={incremetItem}>incremetItem</button>
-      <button onClick={decremetItem}>decremetItem</button>
+      <h2>Hello Hooks</h2>
       <div>
         <input placeholder="Name" {...name} />
       </div>
@@ -36,4 +30,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default UseInput;
