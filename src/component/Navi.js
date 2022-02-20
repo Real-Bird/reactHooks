@@ -22,6 +22,24 @@ const Navigation = () => (
     >
       useTaps
     </Link>
+    <Link
+      to="/useeffect"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      useeffect
+    </Link>
+    <Link
+      to="/useeffect2"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      useeffect2
+    </Link>
+    <Link
+      to="/useeffect3"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      useeffect3
+    </Link>
   </nav>
 );
 
