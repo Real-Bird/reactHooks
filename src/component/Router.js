@@ -12,6 +12,7 @@ import Taps from "../router/Taps";
 import Effect from "../router/Effect";
 import Effect2 from "../router/Effect2";
 import Effect3 from "../router/Effect3";
+import Title from "../router/Title";
 
 const AppRouter = () => {
   return (
@@ -36,6 +37,9 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/useeffect3">
             <Effect3 />
+          </Route>
+          <Route exact path="/usetitle">
+            <Title />
           </Route>
           <Redirect from="*" to="/" />
         </Switch>

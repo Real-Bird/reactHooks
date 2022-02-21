@@ -40,6 +40,12 @@ const Navigation = () => (
     >
       useeffect3
     </Link>
+    <Link
+      to="/usetitle"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      usetitle
+    </Link>
   </nav>
 );
 
