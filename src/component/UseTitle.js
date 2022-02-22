@@ -12,8 +12,8 @@ const useTtile = (initialTitle) => {
 
 const UseTitle = () => {
   const titleUpdater = useTtile("Loading...");
-
   setTimeout(() => titleUpdater("Home"), 5000);
+  // loading 중 렌더링 페이지 옮기면 메모리 누수 경고 발생
 
   const onRefresh = () => location.reload();
   return (

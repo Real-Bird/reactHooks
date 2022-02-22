@@ -46,6 +46,12 @@ const Navigation = () => (
     >
       usetitle
     </Link>
+    <Link
+      to="/useclick"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      useclick
+    </Link>
   </nav>
 );
 

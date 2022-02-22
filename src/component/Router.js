@@ -13,6 +13,7 @@ import Effect from "../router/Effect";
 import Effect2 from "../router/Effect2";
 import Effect3 from "../router/Effect3";
 import Title from "../router/Title";
+import Click from "../router/Click";
 
 const AppRouter = () => {
   return (
@@ -40,6 +41,9 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/usetitle">
             <Title />
+          </Route>
+          <Route exact path="/useclick">
+            <Click />
           </Route>
           <Redirect from="*" to="/" />
         </Switch>
