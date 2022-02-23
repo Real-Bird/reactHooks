@@ -14,6 +14,8 @@ import Effect2 from "../router/Effect2";
 import Effect3 from "../router/Effect3";
 import Title from "../router/Title";
 import Click from "../router/Click";
+import Confirm from "../router/Confirm";
+import PreventLeave from "../router/PreventLeave";
 
 const AppRouter = () => {
   return (
@@ -44,6 +46,12 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/useclick">
             <Click />
+          </Route>
+          <Route exact path="/useconfirm">
+            <Confirm />
+          </Route>
+          <Route exact path="/usepreventleave">
+            <PreventLeave />
           </Route>
           <Redirect from="*" to="/" />
         </Switch>

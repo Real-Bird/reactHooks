@@ -52,6 +52,18 @@ const Navigation = () => (
     >
       useclick
     </Link>
+    <Link
+      to="/useconfirm"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      useconfirm
+    </Link>
+    <Link
+      to="/usepreventleave"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      usepreventleave
+    </Link>
   </nav>
 );
 

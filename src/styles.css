@@ -9,3 +9,18 @@
   min-height: 60px;
   overflow: hidden;
 }
+
+a {
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: 5px;
+  float: left;
+  width: 130px;
+  background-color: beige;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
