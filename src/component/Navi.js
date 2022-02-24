@@ -64,6 +64,24 @@ const Navigation = () => (
     >
       usepreventleave
     </Link>
+    <Link
+      to="/usebeforeleave"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      usebeforeleave
+    </Link>
+    <Link
+      to="/usefadein"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      usefadein
+    </Link>
+    <Link
+      to="/usenetwork"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      usenetwork
+    </Link>
   </nav>
 );
 

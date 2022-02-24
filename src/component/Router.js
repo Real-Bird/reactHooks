@@ -16,6 +16,9 @@ import Title from "../router/Title";
 import Click from "../router/Click";
 import Confirm from "../router/Confirm";
 import PreventLeave from "../router/PreventLeave";
+import BeforeLeave from "../router/BeforeLeave";
+import FadeIn from "../router/FadeIn";
+import Network from "../router/Network";
 
 const AppRouter = () => {
   return (
@@ -52,6 +55,15 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/usepreventleave">
             <PreventLeave />
+          </Route>
+          <Route exact path="/usebeforeleave">
+            <BeforeLeave />
+          </Route>
+          <Route exact path="/usefadein">
+            <FadeIn />
+          </Route>
+          <Route exact path="/usenetwork">
+            <Network />
           </Route>
           <Redirect from="*" to="/" />
         </Switch>
