@@ -26,73 +26,85 @@ const Navigation = () => (
       to="/useeffect"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      useeffect
+      useEffect
     </Link>
     <Link
       to="/useeffect2"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      useeffect2
+      useEffect2
     </Link>
     <Link
       to="/useeffect3"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      useeffect3
+      useEffect3
     </Link>
     <Link
       to="/usetitle"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      usetitle
+      useTitle
     </Link>
     <Link
       to="/useclick"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      useclick
+      useClick
     </Link>
     <Link
       to="/useconfirm"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      useconfirm
+      useConfirm
     </Link>
     <Link
       to="/usepreventleave"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      usepreventleave
+      usePreventLeave
     </Link>
     <Link
       to="/usebeforeleave"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      usebeforeleave
+      useBeforeLeave
     </Link>
     <Link
       to="/usefadein"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      usefadein
+      useFadein
     </Link>
     <Link
       to="/usenetwork"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      usenetwork
+      useNetwork
     </Link>
     <Link
       to="/usescroll"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      usescroll
+      useScroll
     </Link>
     <Link
       to="/usefullscreen"
       style={{ marginRight: 10, textDecoration: "none", color: "black" }}
     >
-      fullscreen
+      useFullscreen
+    </Link>
+    <Link
+      to="/usenotification"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      useNotification
+    </Link>
+    <Link
+      to="/useaxios"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      useAxios
     </Link>
   </nav>
 );

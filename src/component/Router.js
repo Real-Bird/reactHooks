@@ -21,6 +21,8 @@ import FadeIn from "../router/FadeIn";
 import Network from "../router/Network";
 import Scroll from "../router/Scroll";
 import Fullscreen from "../router/Fullscreen";
+import Notification from "../router/Notification";
+import Axios from "../router/Axios";
 
 const AppRouter = () => {
   return (
@@ -72,6 +74,12 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/usefullscreen">
             <Fullscreen />
+          </Route>
+          <Route exact path="/usenotification">
+            <Notification />
+          </Route>
+          <Route exact path="/useaxios">
+            <Axios />
           </Route>
           <Redirect from="*" to="/" />
         </Switch>
