@@ -82,6 +82,18 @@ const Navigation = () => (
     >
       usenetwork
     </Link>
+    <Link
+      to="/usescroll"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      usescroll
+    </Link>
+    <Link
+      to="/usefullscreen"
+      style={{ marginRight: 10, textDecoration: "none", color: "black" }}
+    >
+      fullscreen
+    </Link>
   </nav>
 );
 

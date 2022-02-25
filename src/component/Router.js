@@ -19,6 +19,8 @@ import PreventLeave from "../router/PreventLeave";
 import BeforeLeave from "../router/BeforeLeave";
 import FadeIn from "../router/FadeIn";
 import Network from "../router/Network";
+import Scroll from "../router/Scroll";
+import Fullscreen from "../router/Fullscreen";
 
 const AppRouter = () => {
   return (
@@ -64,6 +66,12 @@ const AppRouter = () => {
           </Route>
           <Route exact path="/usenetwork">
             <Network />
+          </Route>
+          <Route exact path="/usescroll">
+            <Scroll />
+          </Route>
+          <Route exact path="/usefullscreen">
+            <Fullscreen />
           </Route>
           <Redirect from="*" to="/" />
         </Switch>
